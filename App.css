@@ -1,0 +1,82 @@
+/* Add styling for your page here */
+
+.App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .intro {
+    text-align: center;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .card-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .card {
+    background-color: #58698b;
+    background-size: auto;
+    width: 730px;
+    height: 490px;
+    flex: auto;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .item-image {
+    position: relative;
+    top: 10px;
+    left: -30px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .overlay {
+  
+    position: relative;
+    z-index: 10;
+  }
+
+  .blur-in {
+    position: absolute;
+    width: 250px;
+    height: 450px;
+    transition: all 0.2s ease;
+    -webkit-filter: blur(0px);
+    z-index: 1;
+  }
+  
+  .blur-in:hover {
+    -webkit-filter: blur(5px);
+  }
+
+  
+
+  .overlay a {
+    position: absolute;
+    margin-top: auto;
+    margin-left: auto;
+    font-size: 40px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+  }
+
+  .card:hover .overlay a {
+    visibility: visible;
+    opacity: 1;
+  }

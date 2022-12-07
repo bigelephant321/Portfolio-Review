@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Personas and Storyboarding",
+    "description": "Personas and Storyboarding: Thinking in Terms of Users for Better Design",
+    "image": "images/persona.png",
+    "link": "https://bigelephant321.github.io/Personas-and-Storyboarding/"
+  },
+  {
+    "name": "Development",
+    "description": "Creating a React Page for a Bakery",
+    "price": 2.99,
+    "image": "images/Bakery.png",
+    "link": "https://bigelephant321.github.io/development3/"
+  },
+  {
+    "name": "Responsive Redesign",
+    "description": "Creating a Responsive Redesign for a Web Page",
+    "image": "images/redesign.png",
+    "link": "https://bigelephant321.github.io/Responive-Redesign-Submission/"
+  },
+  {
+    "name": "Iterative Design",
+    "description": "Iterative Design Process: Wireframing, Mockups, and more!",
+    "image": "images/homeroom.png",
+    "link": "https://coldfish777.github.io/iterative/"
+  }
+]
